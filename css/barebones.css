@@ -75,7 +75,7 @@ html {
 	Note: prefers-color-scheme selector support is still limited, but 
 	included for future and an example of defining a different base 'theme'
 */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
 	:html {
 		/* dark theme: light background, dark text, blue accent */
 		--theme-hue: 0;					/* black */
@@ -176,7 +176,7 @@ body {
   font-size: 1.6rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Hash";
+  font-family: Hack, monospace;
   color: var(--text-color-normal); 
   background-color: var(--background-color);;
 }
