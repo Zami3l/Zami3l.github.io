@@ -156,3 +156,39 @@ p.reset-margin {
 
 /* Larger than tablet */
 @media (min-width: 1200px) {}
+
+/* Cursor */
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 24px;
+  background: var(--text-color-normal);
+  margin-left: 5px;
+  margin-bottom: -4px;
+  border-radius: 1px;
+  -webkit-animation: cursor 1s infinite;
+  animation: cursor 1s infinite
+}
+
+/* Action cursor */
+@-webkit-keyframes cursor {
+  0%{opacity:0}
+  50%{opacity:1} to {opacity:0}
+}
+@keyframes cursor {
+  0%{opacity:0}
+  50%{opacity:1} to {opacity:0}
+}
+
+/* Terminal */
+.prompt {
+  color: #e74c3c;
+}
+
+.cmd {
+  color: var(--text-color-normal);
+}
+
+.output {
+  color: #7f8c8d;
+}
