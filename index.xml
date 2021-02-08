@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zami3l</title>
-    <link>http://zamiel.dev/</link>
+    <link>http://zami3l.com/</link>
     <description>Recent content on Zami3l</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://zamiel.dev/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://zami3l.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
